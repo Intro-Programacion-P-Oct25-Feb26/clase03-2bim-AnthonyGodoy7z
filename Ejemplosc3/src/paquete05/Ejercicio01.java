@@ -18,18 +18,23 @@ public class Ejercicio01 {
         double[] produccion = new double[5];
         String name;
         double produ;
+        double promedio;
         for (int i = 0; i < nombres.length; i++) {
             System.out.println("Ingrese nombre del trabajador");
             name = entrada.nextLine();
+            entrada.nextDouble();
             nombres[i] = name;
-            
+
             System.out.println("Ingrese produccion en dolares");
             produ = entrada.nextDouble();
+            entrada.nextLine();
             produccion[i] = produ;
+        }
+        for (int j = 0; j < produccion[j]; j++) {
+            produccion[j]
+            
             
         }
-
     }
 
-}
 }
